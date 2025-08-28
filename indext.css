@@ -6,7 +6,7 @@
 
 body {
   background-color: gold;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-family: "poppins", sans-serif;
   padding: 40px;
   display: flex;
   justify-content: center;
@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 #loc {
   text-align: center;
   font-size: 1.5rem;
@@ -43,4 +44,7 @@ body {
   border-bottom: 2px solid #e41010;
   padding-bottom: 8px;
   border-bottom: 1px dashed #d8250d;
+}
+footer {
+  width: 40;
 }
